@@ -1,13 +1,13 @@
 package ru.netology.service;
 
-import org.junit.jupiter.api.Test;
+import org.testng.annotations.Test;
+import static org.testng.Assert.assertEquals;
 
-import static org.junit.jupiter.api.Assertions.*;
 
 class CashbackHackServiceTest {
 
     @Test
-    void shouldCountCorrent() {
+    public void shouldCountCorrect() {
         CashbackHackService cashbackHackService = new CashbackHackService();
         int amount = 900;
 
